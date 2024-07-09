@@ -62,6 +62,7 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 74px;
+
 }
 .banner a {
   /* padding: 24px; */
@@ -327,4 +328,83 @@ height: 550px;
     border-radius: 16px;
     text-align: center;
     align-items: center;
+}
+
+/* my crnt trgt style */
+.my-crnt-trgt{
+    margin-bottom: 111px;
+}
+.my-crnt-trgt-lists{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.my-crnt-trgt-list-1{
+    padding:0px 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.my-crnt-trgt-list-1-2{
+    text-align: center;
+    align-items: center;
+    
+}
+.my-crnt-trgt-list-2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.my-crnt-trgt-list-2-1{
+    text-align: left;
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+padding: 40px;
+width: 364px;
+height: auto;
+}
+
+.my-crnt-trgt-list-2-2{
+    text-align: left;
+    border-radius: 16px;
+    padding: 40px;
+    width: 364px;
+    height: auto;
+    
+background: rgba(0, 76, 232, 0.05);
+}
+.my-crnt-trgt-list-2-3{
+    text-align: left;
+    border-radius: 16px;
+    padding: 40px;
+    width: 364px;
+    height: auto;
+    
+background: rgba(0, 76, 232, 0.05);
+}
+
+.my-crnt-trgt-list-2 a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+.web-dev-p-2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 32px;
+opacity: 0.7;
 }
