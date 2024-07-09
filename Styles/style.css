@@ -253,6 +253,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 32px;
+opacity: 0.7;
 }
 
 .web-dev-btn{
@@ -267,6 +268,16 @@ font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.web-dev-h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
 }
