@@ -1,0 +1,132 @@
+*{
+    font-family: "Azeret Mono", monospace;
+}
+
+
+/* shared */
+/* .btn-primary{
+    box-sizing: border-box;
+    padding: 24px;
+   border-radius: 5px;
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+} */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin:48px 150px 48px 166px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.nav-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav-btn button{
+    box-sizing: border-box;
+    padding: 24px;
+   border-radius: 5px;
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+
+
+
+}
+
+/* banner */
+
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    height: 695px ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 74px;
+}
+.banner a{
+    /* padding: 24px; */
+    font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+}
+.banner button{
+    padding: 21px 24px;
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    
+
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-weight: 600;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* width: ; */
+    padding: 26px 221px 44px 221px;
+    height: 310px;
+}
+
+.banner-container h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+/* line-height: 68px; */
+letter-spacing: 0%;
+text-align: center;
+}
+
+.banner-content-3 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 26px; */
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+ .banner-content-3{
+    width: 852px;
+    margin-bottom: 32px;
+    padding-left: 73px;
+    padding-right: 73px;
+}
+
+/*.banner-content-1{
+    margin-top: 26px;
+    
+}
+
+.banner-content-2{
+    margin-top: 32px;
+    margin-bottom: 24px;
+
+    
+}*/
+
+.banner-container-4{
+    margin-bottom: 44px;
+} 
