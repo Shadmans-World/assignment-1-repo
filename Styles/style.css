@@ -2,6 +2,12 @@
   font-family: "Azeret Mono", monospace;
 }
 
+main{
+    width: 1140px;
+    height: auto;
+    margin: 74px auto;
+}
+
 /* shared */
 /* .btn-primary{
     box-sizing: border-box;
@@ -134,7 +140,7 @@ text-align: center;
     width: 1140px;
     height: auto;
     border-radius: 16px;
-    margin: 74px auto;
+    /* margin: 74px auto; */
 
 background: rgba(13, 19, 33, 0.02);
     
@@ -280,4 +286,45 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+}
+
+/* my inspiration style */
+
+.my-inspiration{
+    height: auto;
+    width: 100%;
+    margin-top: 88px;
+    margin-bottom: 149px;
+}
+.my-inspiration-list{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    text-align: center;
+    align-items: center;
+   
+}
+.my-inspiration-list-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 144px;
+}
+.my-inspiration-list-2{
+width: 1076px;
+padding: 32px;
+border-radius: 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+text-align: center;
+align-items: center;
+height: 550px;
+}
+
+.iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
 }
