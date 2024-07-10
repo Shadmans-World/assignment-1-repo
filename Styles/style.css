@@ -462,6 +462,7 @@ input[type="submit"] {
   width: 120px;
   height: 58px;
   border-radius: 8px;
+  cursor: pointer;
 
   background: rgb(255, 255, 255);
 
@@ -527,4 +528,8 @@ justify-content: space-around;
     display: flex;
     justify-content: space-evenly;
     gap: 24px;
+}
+
+button{
+    cursor: pointer;
 }
