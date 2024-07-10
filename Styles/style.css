@@ -513,16 +513,31 @@ opacity: 0.7;
 
 background: rgba(13, 19, 33, 0.03);
 /* padding: 32px 150px; */
-padding-top: 32px;
-padding-bottom: 32px;
-display: flex;
-align-items: center;
-justify-content: space-around;
+
+
 }
 .footer-content-1 h1{
     text-align: left;
+    color: rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+
     
     
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 185px;
+
 }
 .footer-content-2{
     display: flex;
